@@ -1,0 +1,15 @@
+Save your images in THIS folder using these exact names (all lowercase):
+
+  hero.jpg              Hero, top of page          Portrait / tall  (2:3)
+  about.jpg             About section              Square           (1:1)
+  gallery-home.jpg      Gallery - In-home support  Portrait         (2:3)
+  gallery-community.jpg Gallery - Community        Portrait         (2:3)
+  gallery-transport.jpg Gallery - Travel/transport Portrait         (2:3)
+  gallery-skills.jpg    Gallery - Life skills      Portrait         (2:3)
+
+Tips
+- Names are case-sensitive on most web servers. Keep them lowercase, exactly as above.
+- Images are cropped to fill their frame, so keep the subject roughly centred.
+- Compress to ~150-300 KB each (squoosh.app or tinypng.com) so the page loads fast.
+- .png or .webp also work, but then update the matching src in index.html.
+Until a file exists, the site shows the built-in illustration placeholder instead.
